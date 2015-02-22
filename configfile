@@ -1,0 +1,30 @@
+
+[RPI]
+# Pins refer to GPIO pins for inputs to L293D or similar motor controller
+PIN_LEFT_FWD = 22
+PIN_LEFT_REV = 21
+PIN_RIGHT_FWD = 11
+PIN_RIGHT_REV = 12
+PIN_ENABLE = 26
+
+[CAPTURE]
+CAPTURE_DIR = img
+# Total capture time
+CAPTURE_MINS = 15
+# Time of finished video
+VIDEO_SECONDS = 30
+# Final video FPS
+FPS = 25
+# How many times rover inces forward
+NMOVES = 200
+# How long one crawl lasts
+CRAWL_TIME = 0.1
+# The following variable makes the rover turn left or right.
+# A -ve number makes it turn left. A positive number turns it to the right.
+# A value of 0 makes it move forward with no intentional turn.
+# The value represents how sharp the turn will be. For example, a value of
+# 5 means every fifth move will be a right turn, all others will be a 
+# move forward.
+# Use lower numbers for tighter turns.
+TURN = -3
+
