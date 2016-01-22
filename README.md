@@ -7,4 +7,4 @@ Edit the values in the configfile to match your setup, then run:
 
 sudo lapsevid.py configfile
 
-Coming: sample videos.
+Sample video: https://youtu.be/SfwvvX69sik
